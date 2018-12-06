@@ -1,0 +1,62 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Connect4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="539.234" Width="597.309" Background="#FF7B85AA" BorderBrush="#FFFCFFB2" Foreground="#FFFCFFB2">
+    <Grid Background="#FFFCFFB2" MouseLeftButtonDown="Grid_MouseLeftButtonDown" Margin="10,0,0,79" HorizontalAlignment="Left" Width="460" Height="419" VerticalAlignment="Bottom">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Ellipse x:Name="eli15" Fill="White" HorizontalAlignment="Left" Height="64" Margin="8,147,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="61"/>
+        <Ellipse x:Name="eli22" Fill="White" HorizontalAlignment="Left" Height="61" Margin="8,216,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="61"/>
+        <Ellipse x:Name="eli29" Fill="White" HorizontalAlignment="Left" Height="63" Margin="8,281,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="61"/>
+        <Ellipse x:Name="eli1" HorizontalAlignment="Left" Height="63" Margin="8,11,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="61" Fill="White"/>
+        <Ellipse x:Name="eli6" Fill="White" HorizontalAlignment="Left" Height="63" Margin="326,11,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="61"/>
+        <Ellipse x:Name="eli36" Fill="White" HorizontalAlignment="Left" Height="62" Margin="8,350,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="61"/>
+        <Ellipse x:Name="eli16" Fill="White" HorizontalAlignment="Left" Height="64" Margin="74,147,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="58"/>
+        <Ellipse x:Name="eli23" Fill="White" HorizontalAlignment="Left" Height="61" Margin="74,216,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="58"/>
+        <Ellipse x:Name="eli30" Fill="White" HorizontalAlignment="Left" Height="63" Margin="74,281,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="58"/>
+        <Ellipse x:Name="eli2" Fill="White" HorizontalAlignment="Left" Height="63" Margin="74,11,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="58"/>
+        <Ellipse x:Name="eli9" Fill="White" HorizontalAlignment="Left" Height="62" Margin="74,81,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="58"/>
+        <Ellipse x:Name="eli37" Fill="White" HorizontalAlignment="Left" Height="62" Margin="74,350,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="58"/>
+        <Ellipse x:Name="eli17" Fill="White" HorizontalAlignment="Left" Height="64" Margin="137,147,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="58"/>
+        <Ellipse x:Name="eli24" Fill="White" HorizontalAlignment="Left" Height="61" Margin="137,216,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="58"/>
+        <Ellipse x:Name="eli31" Fill="White" HorizontalAlignment="Left" Height="63" Margin="137,281,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="58"/>
+        <Ellipse x:Name="eli3" Fill="White" HorizontalAlignment="Left" Height="63" Margin="137,11,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="58"/>
+        <Ellipse x:Name="eli10" Fill="White" HorizontalAlignment="Left" Height="62" Margin="137,81,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="58"/>
+        <Ellipse x:Name="eli38" Fill="White" HorizontalAlignment="Left" Height="62" Margin="137,350,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="58"/>
+        <Ellipse x:Name="eli18" Fill="White" HorizontalAlignment="Left" Height="64" Margin="200,147,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="60"/>
+        <Ellipse x:Name="eli25" Fill="White" HorizontalAlignment="Left" Height="61" Margin="200,216,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="60"/>
+        <Ellipse x:Name="eli32" Fill="White" HorizontalAlignment="Left" Height="63" Margin="200,281,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="60"/>
+        <Ellipse x:Name="eli4" Fill="White" HorizontalAlignment="Left" Height="63" Margin="200,11,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="60"/>
+        <Ellipse x:Name="eli11" Fill="White" HorizontalAlignment="Left" Height="62" Margin="200,81,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="60"/>
+        <Ellipse x:Name="eli39" Fill="White" HorizontalAlignment="Left" Height="62" Margin="200,350,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="60"/>
+        <Ellipse x:Name="eli19" Fill="White" HorizontalAlignment="Left" Height="64" Margin="265,147,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="58"/>
+        <Ellipse x:Name="eli26" Fill="White" HorizontalAlignment="Left" Height="61" Margin="265,216,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="58"/>
+        <Ellipse x:Name="eli33" Fill="White" HorizontalAlignment="Left" Height="63" Margin="265,281,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="58"/>
+        <Ellipse x:Name="eli5" Fill="White" HorizontalAlignment="Left" Height="63" Margin="265,11,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="58"/>
+        <Ellipse x:Name="eli12" Fill="White" HorizontalAlignment="Left" Height="62" Margin="265,81,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="58"/>
+        <Ellipse x:Name="eli40" Fill="White" HorizontalAlignment="Left" Height="62" Margin="265,350,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="58"/>
+        <Ellipse x:Name="eli20" Fill="White" HorizontalAlignment="Left" Height="64" Margin="329,147,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="58"/>
+        <Ellipse x:Name="eli27" Fill="White" HorizontalAlignment="Left" Height="61" Margin="329,216,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="58"/>
+        <Ellipse x:Name="eli34" Fill="White" HorizontalAlignment="Left" Height="63" Margin="329,281,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="58"/>
+        <Ellipse x:Name="eli7" Fill="White" HorizontalAlignment="Left" Height="63" Margin="393,8,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="57"/>
+        <Ellipse x:Name="eli13" Fill="White" HorizontalAlignment="Left" Height="62" Margin="329,81,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="58"/>
+        <Ellipse x:Name="eli41" Fill="White" HorizontalAlignment="Left" Height="62" Margin="329,350,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="58"/>
+        <Ellipse x:Name="eli21" Fill="White" HorizontalAlignment="Left" Height="63" Margin="393,143,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="57"/>
+        <Ellipse x:Name="eli28" Fill="White" HorizontalAlignment="Left" Height="60" Margin="393,213,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="57"/>
+        <Ellipse x:Name="eli35" Fill="White" HorizontalAlignment="Left" Height="63" Margin="393,278,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="57"/>
+        <Ellipse x:Name="eli8" Fill="White" HorizontalAlignment="Left" Height="62" Margin="7,81,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="61"/>
+        <Ellipse x:Name="eli14" Fill="White" Height="57" Margin="392,81,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" HorizontalAlignment="Left" Width="58"/>
+        <Ellipse x:Name="eli42" Fill="White" HorizontalAlignment="Left" Height="63" Margin="393,346,0,0" Stroke="#FF9B9B9B" VerticalAlignment="Top" Width="57"/>
+        <TextBlock HorizontalAlignment="Right" Height="58" Margin="0,429,-1,-68" TextWrapping="Wrap" Text="CONNECT FOUR" VerticalAlignment="Top" Width="460" FontFamily="Rockwell Extra Bold" FontSize="48" TextAlignment="Center"/>
+        <TextBlock Height="337" Margin="470,0,-109,0" TextWrapping="Wrap" Text="RULES: Click the spots on the game board to place a chip at the bottom of the board! Try to win by putting four chips in a row (diagonally, horizontally, or vertically)! Turns alternate, with Player 1 going first (RED chips) and Player 2 going second (BLACK chips)! Good Luck!" VerticalAlignment="Top" FontFamily="Rockwell Extra Bold" TextAlignment="Center" HorizontalAlignment="Left" Width="99"/>
+        <TextBlock Height="136" Margin="470,0,-109,-68" TextWrapping="Wrap" Text="**GAME BOARD RESETS AUTOMATICALLY AFTER A PLAYER WINS OR AFTER A TIE HAS BEEN ACHIEVED" VerticalAlignment="Bottom" FontFamily="Rockwell Extra Bold" TextAlignment="Center" HorizontalAlignment="Left" Width="99"/>
+    </Grid>
+</Window>
